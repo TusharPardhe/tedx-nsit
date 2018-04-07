@@ -178,7 +178,7 @@ jQuery(function($){
 		      offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+32;
 		  jQuery('html, body').stop().animate({
 		      scrollTop: offsetTop
-		  }, 1500);
+		  }, 500);
 		  e.preventDefault();
 		});
 

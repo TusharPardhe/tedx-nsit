@@ -525,7 +525,7 @@ img{
 	float: none;
 }
 .main-nav li a {
-	color: #636363;
+	color: #FFFFFF;
 	font-size: 15px;
 	padding: 39px 20px;
 	text-transform: uppercase;
@@ -535,7 +535,7 @@ img{
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #636363;
+  color: #FFFFFF;
   -webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -613,7 +613,7 @@ img{
 /*--------------------*/
 
 #about{
-  margin-top: 70px; 
+  margin-top: 95px;
 	background-color: #000000;
 	padding: 70px 0;
 	float: left;
