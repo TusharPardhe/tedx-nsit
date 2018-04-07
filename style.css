@@ -470,13 +470,16 @@ img{
 /* MENU */
 /*--------------------*/
 
+#imgsec{
+
+}
 #menu-area{
 	float: left;
 	display: inline;
 	width: 100%;
 }
 .main-navbar {
-	background: #000 none repeat scroll 0 0;
+	background: transparent none repeat scroll 0 0;
 	border-radius: 0;
 	border-bottom: 1px solid #000;
 	border-right: medium none;
@@ -485,6 +488,9 @@ img{
 	-webkit-box-shadow: 0px 2px 4px 0px #e62b1e;
 	-moz-box-shadow: 0px 2px 4px 0px #e62b1e;
 	box-shadow: 0px 2px 4px 0px #0c0c0c;
+}
+.scrolled{
+  background: #000000;
 }
 .navbar-fixed-top{
 	height: 90px;
@@ -608,23 +614,28 @@ img{
   opacity: 0.8;
 }
 
+
 /*--------------------*/
 /* ABOUT */
 /*--------------------*/
 
 #about{
-  margin-top: 95px;
-	background-color: #000000;
-	padding: 70px 0;
+  background-image: url("assets/images/giphy.gif");
+  background-size: cover;
+	padding: 150px 0;
 	float: left;
 	display: inline;
 	width: 100%;
+}
+#imgsec{
 }
 .welcome-area{
   padding-top: 150px;
   padding-bottom: 75px;
 	float: left;
 	display: inline;
+  color: #000
+
 	width: 100%;
 }
 .title-area {
