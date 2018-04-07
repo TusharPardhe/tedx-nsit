@@ -65,6 +65,22 @@ jQuery(function($){
 	//     }
 	// });
 
+	function checkScroll(){
+    var startY = $('.main-navbar').height() * 5; //The point where the navbar changes in px
+
+    if($(window).scrollTop() > startY){
+        $('.main-navbar').addClass("scrolled");
+    }else{
+        $('.main-navbar').removeClass("scrolled");
+    }
+}
+
+if($('.main-navbar').length > 0){
+    $(window).on("scroll load resize", function(){
+        checkScroll();
+    });
+}
+
 	/* ----------------------------------------------------------- */
 	/*  3. COUNTER
 	/* ----------------------------------------------------------- */
