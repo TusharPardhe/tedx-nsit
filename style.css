@@ -627,11 +627,16 @@ img{
 	float: left;
 	display: inline;
 	width: 100%;
+  padding-top: 100px;
 }
 #imgsec{
 }
 .welcome-area{
+<<<<<<< HEAD
   padding-top: 60px;
+=======
+  padding-top: 275px;
+>>>>>>> b4248eeb1557bdf2cb20f95a04f8e34bec9ab0a3
   padding-bottom: 75px;
 	float: left;
 	display: inline;
