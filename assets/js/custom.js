@@ -68,7 +68,7 @@ jQuery(function($){
 	function checkScroll(){
     var startY = $('.main-navbar').height() * 5; //The point where the navbar changes in px
 
-    if($(window).scrollTop() > startY){
+    if($(window).scrollTop() > 325){
         $('.main-navbar').addClass("scrolled");
     }else{
         $('.main-navbar').removeClass("scrolled");
