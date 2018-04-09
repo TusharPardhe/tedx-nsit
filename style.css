@@ -621,13 +621,14 @@ img{
 /*--------------------*/
 
 #about{
-  background-image: url("assets/images/giphy.gif");
-  background-size: cover;
-	padding: 0px 0;
+  /*background-image: url("assets/images/giphy.gif");*/
+	background-image: url("https://static1.squarespace.com/static/54d09890e4b01d126f05a2e1/56c33e16b654f95147f1749a/56cdf9d6c2ea510fbd51bbae/1456339458974/Original.gif");
+    background-size: cover;
+	padding: 0 0;
 	float: left;
 	display: inline;
 	width: 100%;
-  padding-top: 100px;
+    padding-top: 100px;
 }
 #imgsec{
 }
@@ -637,18 +638,29 @@ img{
   padding-bottom: 50px;
 	float: left;
 	display: inline;
-  color: #000
+  color: #FFFFFF;
 
 	width: 100%;
+}
+.registration{
+	align-content: center;
+}
+.main-text
+{
+	position: absolute;
+	top: 50px;
+	width: 96.66666666666666%;
+	color: #FFF;
 }
 .title-area {
 	display: inline;
 	float: left;
-	padding: 0 172px;
 	position: relative;
 	text-align: center;
 	width: 100%;
+	background-color: black;
 }
+
 .animation{
 
 
@@ -2587,9 +2599,6 @@ img{
 	}
 	.team-address span {
 	  font-size: 14px;
-	}
-	.title-area {
-	  padding: 0 100px;
 	}
 	.single-portfolio {
 	  width: 22.5%;
