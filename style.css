@@ -642,6 +642,13 @@ img{
 
 	width: 100%;
 }
+.ted-left{
+
+	display: inline;
+	float: left;
+	padding: 30px;
+	width: 100%;
+}
 .registration{
 	align-content: center;
 }
@@ -698,6 +705,7 @@ img{
 	font-size: 40px;
 	margin-bottom: 0;
 	padding-bottom: 18px;
+	font-family: 'Gugi', cursive;
 }
 .tittle-line {
 	background-color: #000000;
