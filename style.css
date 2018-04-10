@@ -515,8 +515,8 @@ img{
 .logo img {
 	padding-top: 15%;
 	padding-right: 5%;
-	height: 95%;
-	width: 260%;
+	height: 125%;
+	width: 370%;
 }
 #navbar {
 	float: left;
@@ -634,8 +634,8 @@ img{
 }
 .welcome-area{
 
-  padding-top: 275px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 90px;
 	float: left;
 	display: inline;
   color: #FFFFFF;
@@ -658,7 +658,7 @@ img{
 	position: relative;
 	text-align: center;
 	width: 100%;
-	background-color: black;
+	background-color: #0000;
 }
 
 .animation{
@@ -1765,7 +1765,7 @@ img{
 	width: 100%;
 }
 .contact-left {
-	background-color: rgba(104, 102, 96, 0.5);
+	background-color: rgba(214, 0, 0, 0.64);
 	display: inline;
 	float: left;
 	padding: 30px 40px 10px;
@@ -1795,7 +1795,7 @@ img{
 	margin-bottom: 5px;
 }
 .contact-right{
-	background-color: rgba(255, 255, 255, 0);
+	background-color: rgba(0, 0, 0, 0);
 	display: inline;
 	float: left;
 	padding: 30px 40px;
