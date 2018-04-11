@@ -1368,6 +1368,7 @@ img{
 	font-size: 60px;
 	text-align: center;
 	width: 60px;
+	margin-left: 60px;
 }
 .single-counter .counter-count{
 	float: left;
